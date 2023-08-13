@@ -71,7 +71,6 @@ spec:
           name: nextcloud-aio-database
           ports:
             - containerPort: 5432
-              hostPort: 5432
               protocol: TCP
           securityContext:
             readOnlyRootFilesystem: true

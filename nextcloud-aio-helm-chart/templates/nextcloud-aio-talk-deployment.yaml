@@ -63,13 +63,10 @@ spec:
           name: nextcloud-aio-talk
           ports:
             - containerPort: {{ .Values.TALK_PORT }}
-              hostPort: {{ .Values.TALK_PORT }}
               protocol: TCP
             - containerPort: {{ .Values.TALK_PORT }}
-              hostPort: {{ .Values.TALK_PORT }}
               protocol: UDP
             - containerPort: 8081
-              hostPort: 8081
               protocol: TCP
           securityContext:
             readOnlyRootFilesystem: true

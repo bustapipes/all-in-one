@@ -76,10 +76,8 @@ spec:
           name: nextcloud-aio-apache
           ports:
             - containerPort: {{ .Values.APACHE_PORT }}
-              hostPort: {{ .Values.APACHE_PORT }}
               protocol: TCP
             - containerPort: {{ .Values.APACHE_PORT }}
-              hostPort: {{ .Values.APACHE_PORT }}
               protocol: UDP
           securityContext:
             readOnlyRootFilesystem: true

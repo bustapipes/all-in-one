@@ -124,7 +124,6 @@ spec:
           name: nextcloud-aio-nextcloud
           ports:
             - containerPort: 9000
-              hostPort: 9000
               protocol: TCP
           volumeMounts:
             - mountPath: /var/www/html

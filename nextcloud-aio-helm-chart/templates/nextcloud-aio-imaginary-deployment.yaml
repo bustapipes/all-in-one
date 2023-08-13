@@ -41,7 +41,6 @@ spec:
           name: nextcloud-aio-imaginary
           ports:
             - containerPort: 9000
-              hostPort: 9000
               protocol: TCP
           securityContext:
             capabilities:

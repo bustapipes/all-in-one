@@ -54,7 +54,6 @@ spec:
           name: nextcloud-aio-notify-push
           ports:
             - containerPort: 7867
-              hostPort: 7867
               protocol: TCP
           securityContext:
             readOnlyRootFilesystem: true

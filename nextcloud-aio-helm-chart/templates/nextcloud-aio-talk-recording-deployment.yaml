@@ -50,7 +50,6 @@ spec:
           name: nextcloud-aio-talk-recording
           ports:
             - containerPort: 1234
-              hostPort: 1234
               protocol: TCP
           securityContext:
             readOnlyRootFilesystem: true
